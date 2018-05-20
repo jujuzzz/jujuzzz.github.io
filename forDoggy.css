@@ -16,7 +16,7 @@
 }
 
 .pic{
-    grid-area: 8 / 5 / span 6 / span 4;
+    grid-area: 7 / 5 / span 6 / span 4;
 }
 
 .topleft{
@@ -117,7 +117,7 @@ h1{
 
 img{
   width: 460px;
-  height: 350px;
+  height: 460px;
 }
 
 
