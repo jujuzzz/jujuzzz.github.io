@@ -113,6 +113,8 @@ h1{
 img{
   width: 460px;
   height: 460px;
+  position: relative;
+  top: 5px;
 }
 
 
