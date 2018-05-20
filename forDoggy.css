@@ -12,25 +12,11 @@
 }
 
 .head{
-    grid-area: 1 / 1 / span 2 / span 12;
+    grid-area: 2 / 1 / span 2 / span 12;
 }
 
 .pic{
     grid-area: 7 / 5 / span 6 / span 4;
-}
-
-.topleft{
-    grid-area:4 / 6 / span 1 / span 1;
-  background-color: #ed8dab;
-  position: relative;
-  left: -50px;
-}
-
-.topright{
-    grid-area:4 / 8 / span 1 / span 1;
-  background-color: #ed8dab;
-  position: relative;
-  left: -70px;
 }
 
 
