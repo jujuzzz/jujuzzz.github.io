@@ -80,7 +80,7 @@
 }
 
 .bottomright{
-    grid-area:11 / 7 / span 2 / span 2;
+    grid-area:11 / 9 / span 2 / span 2;
   background-color: #ed8dab;
 }
 
@@ -112,9 +112,7 @@ h1{
 
 img{
   width: 460px;
-  height: 400px;
-  position: relative;
-  top: -10px;
+  height: 460px;
 }
 
 
