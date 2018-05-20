@@ -63,11 +63,6 @@
   background-color: #ed8dab;    
 }
 
-.beneathmiddle{
-    grid-area:7 / 6 / span 1 / span 2;
-  background-color: #ed8dab;
-    
-}
 
 .centerleft{
     grid-area:8 / 2 / span 3 / span 3;
@@ -80,12 +75,12 @@
 }
 
 .bottomleft{
-    grid-area:11 / 3 / span 2 / span 3;
+    grid-area:11 / 3 / span 2 / span 2;
   background-color: #ed8dab;
 }
 
 .bottomright{
-    grid-area:11 / 8 / span 2 / span 3;
+    grid-area:11 / 7 / span 2 / span 2;
   background-color: #ed8dab;
 }
 
