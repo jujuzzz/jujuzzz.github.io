@@ -1,0 +1,246 @@
+
+* {
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+h2 {
+	font-size:4.375rem;
+	font-family:'Ranchers',cursive;
+	letter-spacing:0.3rem;
+	color:white;
+	padding-left:3rem;
+	padding-top:1.5rem;
+}
+.wrapper {
+	display:grid;
+	grid-template:5fr 2fr 8fr 1fr 8fr 1fr 8fr 2fr / repeat(28,1fr);
+}
+.head {
+	grid-area:1 / 1 / span 1 / span 28;
+	text-align:left;
+	height:15.625rem;
+	opacity:0.9;
+	background:url(http://studentweb.comminfo.rutgers.edu/class-2017-9-04-567-347-01/jz587/ICA/Prototype/Images/image.jpeg) No-repeat;
+	width:100%;
+	background-size:cover;
+}
+h2 a:link {
+	color: white;
+	text-decoration:none;
+}
+h2 a:visited {
+	color: white;
+	text-decoration:none;
+}
+h2 a:hover {
+	color:white;
+	text-decoration:none;
+}
+h2 a:active {
+	color:white;
+	text-decoration:none;
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+.pic1 {
+	grid-area:3/ 2 /span 1 / span 10;
+	position:relative;
+	
+}
+.information1 {
+	grid-area:3/ 12 / span 1 / span 16;
+	background-color:#edeff2;
+	position:relative;
+	
+}
+.pic2 {
+	grid-area:5/ 2 /span 1 / span 10;
+	position:relative;
+	
+}
+.information2 {
+	grid-area:5/ 12 / span 1 / span 16;
+	background-color:#edeff2;
+	position:relative;
+	
+}
+.pic3 {
+	grid-area:7/ 2 /span 1 / span 10;
+	position:relative;
+	
+}
+.information3 {
+	grid-area:7/ 12 / span 1 / span 16;
+	background-color:#edeff2;
+	position:relative;
+	
+}
+.footer {
+	grid-area:8 / 1 / span 1 / span 28;
+	display:flex;
+	justify-content:space-around;
+	background-color:#edeff2;
+	line-height:6.25rem;
+	position:relative;
+}
+.footer a:link {
+	color:black;
+	font-size:0.75rem;
+	text-decoration:none;
+}
+.footer a:visited {
+	color:black;
+	text-decoration:none;
+}
+.footer a:hover {
+	color:black;
+	text-decoration:none;
+}
+.footer a:active {
+	color:black;
+	text-decoration:none;
+}
+
+#head-button {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	text-align:center;
+	font-family:'Rubik',sans-serif;
+	position:relative;
+	top:22.5%;
+}
+
+.button1 {
+	width: 25%;	
+	margin-left: 4%;
+	margin-right: 4%;
+	
+}
+.button2 {
+	width: 25%;	
+	margin-left: 4%;
+	margin-right: 4%;
+
+}
+.button3 {
+	width: 25%;	
+	margin-left: 4%;
+	margin-right: 4%;
+	
+}
+ul {
+	list-style:none;
+}
+
+/*隐藏子菜单*/
+li ul {
+	display:none;
+	width: 25%;
+}
+/*主菜单与子菜单作为整体设置属性*/
+ul li a {
+	display:block;
+	text-decoration:none;
+	color:#5c5d60;
+	padding:3.5%; 
+	background:white;
+	border-bottom:0.0625rem solid #ffffff;
+}
+ul li:hover a {
+	color:white;
+	background:#a5659c;
+}
+
+/*主菜单被hover后子菜单属性*/
+li:hover ul {
+	display:block;
+	position:absolute;
+	float:none;
+	font-size:0.6875rem;
+}
+li:hover ul a:hover {
+	background:#95A9B1;
+}
+
+
+
+h3 {
+	font-family:'Shadows Into Light',cursive;
+	font-size:2.5rem;
+	position:relative;
+	top:8%;
+	text-align:center;
+}
+.infBox a:link {
+	color:black;
+	text-decoration:none;
+}
+.infBox a:visited {
+	color:black;
+	text-decoration:none;
+}
+.infBox a:hover {
+	color:purple;
+	text-decoration:none;
+}
+.infBox a:active {
+	color:black;
+	text-decoration:none;
+}
+h4 {
+	font-family:'Philosopher',sans-serif;
+	font-size:1.375rem;
+	position:relative;
+	top:8%;
+	text-align:center;
+}
+h5 {
+	font-family:'Philosopher',sans-serif;
+	font-size:1.125rem;
+	position:relative;
+	top:13%;
+	text-align:center;
+}
+p {
+	position:relative;
+	top:17%;
+	text-align:left;
+	padding:3%;
+	font-family:'Rubik',sans-serif;
+	line-height:1.975rem;
+	color:#616468;
+}
+
+
+html {font-size: 100%!important;}
+
+@media only screen and (max-width: 1600px){
+    html {
+        font-size: 90%!important; 
+	}
+	
+}
+
+@media only screen and (max-width: 1024px){
+    html {
+        font-size: 75%!important; 
+	}
+	
+}
+@media only screen and (max-width: 768px){
+    html {
+        font-size: 50%!important; 
+	}
+	
+}
+@media only screen and (max-width: 480px){
+    html {
+        font-size: 30%!important; 
+	}
+	
+}

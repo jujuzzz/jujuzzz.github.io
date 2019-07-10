@@ -1,0 +1,264 @@
+* {
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+}
+h2 {
+	font-size:4.375rem;
+	font-family:'Ranchers',cursive;
+	letter-spacing:0.3rem;
+	color:white;
+	padding-left:3rem;
+	padding-top:1.5rem;
+}
+.wrapper {
+	display:grid;
+	grid-template:5fr 2fr 10fr 2fr 3fr 2fr 2fr / repeat(28,1fr);
+	
+}
+.head {
+	grid-area:1 / 1 / span 1 / span 28;
+	text-align:left;
+	height:15.625rem;
+	opacity:0.9;
+	background:url(http://studentweb.comminfo.rutgers.edu/class-2017-9-04-567-347-01/jz587/ICA/Prototype/Images/image.jpeg) No-repeat;
+	width:100%;
+	background-size:cover;
+}
+h2 a:link {
+	color: white;
+	text-decoration:none;
+}
+h2 a:visited {
+	color: white;
+	text-decoration:none;
+}
+h2 a:hover {
+	color:white;
+	text-decoration:none;
+}
+h2 a:active {
+	color:white;
+	text-decoration:none;
+}
+.leReview {
+	grid-area:3/ 2 /span 1 / span 6;
+}
+.leReview p {
+	top: 30%;
+}
+.col1 {
+	grid-area:5 / 2 / span 1 / span 6;
+}
+.col2 {
+	grid-area:5 / 12 / span 1 / span 6;
+}
+.col3 {
+	grid-area:5 / 22 / span 1 / span 6;
+}
+.col {
+	position:relative;
+}
+.col a:link {
+	color:black;
+	text-decoration:none;
+	font-size:1rem;
+	line-height:1.875rem;
+	font-family:Helvetica;
+	font-weight:400;
+}
+.col a:visited {
+	color:black;
+	text-decoration:none;
+}
+.col a:hover {
+	color:purple;
+	text-decoration:none;
+}
+.col a:active {
+	color:black;
+	text-decoration:none;
+}
+h3 {
+	font-family:'Rubik',sans-serif;
+	font-size:1.25rem;
+	line-height:1.875rem;
+}
+
+.footer {
+	grid-area:7 / 1 / span 1 / span 28;
+	display:flex;
+	justify-content:space-around;
+	background-color:#edeff2;
+	line-height:6.25rem;
+	position:relative;
+	
+}
+.footer a:link {
+	color:black;
+	font-size:0.75rem;
+	text-decoration:none;
+}
+.footer a:visited {
+	color:black;
+	text-decoration:none;
+}
+.footer a:hover {
+	color:black;
+	text-decoration:none;
+}
+.footer a:active {
+	color:black;
+	text-decoration:none;
+}
+
+
+#head-button {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	text-align:center;
+	font-family:'Rubik',sans-serif;
+	position:relative;
+	top:22.5%;
+}
+
+
+.button1 {
+	width: 25%;	
+	margin-left: 4%;
+	margin-right: 4%;
+	
+}
+.button2 {
+	width: 25%;	
+	margin-left: 4%;
+	margin-right: 4%;
+	
+}
+.button3 {
+	width: 25%;	
+	margin-left: 4%;
+	margin-right: 4%;
+	
+}
+ul {
+	list-style:none;
+}
+
+/*隐藏子菜单*/
+li ul {
+	display:none;
+	width: 25%;
+}
+/*主菜单与子菜单作为整体设置属性*/
+ul li a {
+	display:block;
+	text-decoration:none;
+	color:#5c5d60;
+	padding:3.5%; 
+	background:white;
+	border-bottom:0.0625rem solid #ffffff;
+}
+ul li:hover a {
+	color:white;
+	background:#a5659c;
+}
+
+/*主菜单被hover后子菜单属性*/
+li:hover ul {
+	display:block;
+	position:absolute;
+	float:none;
+	font-size:0.6875rem;
+}
+li:hover ul a:hover {
+	background:#95A9B1;
+}
+
+
+p {
+	font-family:'Neucha',cursive;
+	font-size:3.125rem;
+	position:relative;
+	font-weight:200;
+	text-align:left;
+	position:relative;	
+	left:2.8125rem;
+}
+
+
+.riPic {
+  grid-area: 3/ 10 / span 1 / span 18;
+	width: 100%;
+	height: 100%;
+	position: relative;
+    overflow: hidden;
+    
+
+
+}
+.riPic .css-img {
+	max-width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	-webkit-animation: riPic-fade 30s linear infinite;
+	-moz-animation: riPic-fade 30s linear infinite;
+	-ms-animation: riPic-fade 30s linear infinite;
+	animation: riPic-fade 30s linear infinite;
+    margin:0 auto;
+}
+.riPic .css-img:nth-child(2) {
+	-webkit-animation-delay: 5s;
+	-moz-animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	animation-delay: 5s;
+}
+.riPic .css-img:nth-child(3) {
+	-webkit-animation-delay: 10s;
+	-moz-animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	animation-delay: 10s;
+}
+
+@-webkit-keyframes riPic-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@-moz-keyframes riPic-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@keyframes riPic-fade {
+	0%, 20%, 100% { opacity: 0; }
+	5%, 15% { opacity: 1;}
+
+}
+
+@media only screen and (max-width: 1600px){
+    html {
+        font-size: 90%!important; 
+	}
+	
+}
+
+@media only screen and (max-width: 1024px){
+    html {
+        font-size: 75%!important; 
+	}
+}
+@media only screen and (max-width: 768px){
+    html {
+        font-size: 50%!important; 
+	}
+	
+}
+@media only screen and (max-width: 480px){
+    html {
+        font-size: 30%!important; 
+	}
+	
+}

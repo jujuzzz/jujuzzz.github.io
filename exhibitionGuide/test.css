@@ -1,0 +1,30 @@
+.wrapper {
+	display:grid;
+	grid-template:5fr 10fr 3fr 2fr / repeat(28,1fr);
+}
+
+.head {
+  grid-area:1 / 1 / span 1 / span 28;
+  background-color: red;
+}
+
+.leReview {
+	grid-area:2/ 2 /span 1 / span 6;
+}
+.col1 {
+	grid-area:3 / 2 / span 1 / span 6;
+}
+.col2 {
+	grid-area:3 / 12 / span 1 / span 6;
+}
+.col3 {
+	grid-area:3 / 22 / span 1 / span 6;
+}
+
+.footer {
+	grid-area:4 / 1 / span 1 / span 28;
+}
+
+.riPic {
+  grid-area: 2/ 10 / span 1 / span 18;
+}
