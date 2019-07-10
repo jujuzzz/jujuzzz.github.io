@@ -228,19 +228,19 @@ p {
 }
 
 @-webkit-keyframes riPic-fade {
-    0%, 35%, 100% { opacity: 0; }
+    0%, 30%, 100% { opacity: 0; }
     5%, 15%, 25% { opacity: 1;}
 }
 @-moz-keyframes riPic-fade {
-	0%, 35%, 100% { opacity: 0; }
+	0%, 30%, 100% { opacity: 0; }
     5%, 15%, 25% { opacity: 1;}
 }
 @-ms-keyframes riPic-fade {
-	0%, 35%, 100% { opacity: 0; }
+	0%, 30%, 100% { opacity: 0; }
     5%, 15%, 25% { opacity: 1;}
 }
 @keyframes riPic-fade {
-	0%, 35%, 100% { opacity: 0; }
+	0%, 30%, 100% { opacity: 0; }
     5%, 15%, 25% { opacity: 1;}
 
 }
