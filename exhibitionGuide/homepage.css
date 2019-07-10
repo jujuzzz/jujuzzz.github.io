@@ -121,7 +121,7 @@ h3 {
 	text-align:center;
 	font-family:'Rubik',sans-serif;
 	position:relative;
-	top:22.5%;
+	top:15%;
 }
 
 
@@ -194,22 +194,25 @@ p {
 	width: 100%;
 	height: 100%;
 	position: relative;
-    overflow: hidden;
+        overflow: hidden;
     
 
 
 }
-.riPic .css-img {
-	max-width: 100%;
-	position: absolute;
+.riPic .css-img {	
+	max-width: 100%;	
 	left: 0;
 	right: 0;
 	opacity: 0;
-	-webkit-animation: riPic-fade 30s linear infinite;
-	-moz-animation: riPic-fade 30s linear infinite;
-	-ms-animation: riPic-fade 30s linear infinite;
-	animation: riPic-fade 30s linear infinite;
-    margin:0 auto;
+	margin:0 auto;
+	/*让三张图片固定在同一个地方滚动*/
+	position: absolute;
+	/*不同内核浏览器*/	
+	-webkit-animation: riPic-fade 15s linear infinite;
+	-moz-animation: riPic-fade 15s linear infinite;
+	-ms-animation: riPic-fade 15s linear infinite;
+	animation: riPic-fade 15s linear infinite;
+    
 }
 .riPic .css-img:nth-child(2) {
 	-webkit-animation-delay: 5s;
@@ -225,16 +228,20 @@ p {
 }
 
 @-webkit-keyframes riPic-fade {
-    0%, 20%, 100% { opacity: 0; }
-    5%, 15% { opacity: 1;}
+    0%, 35%, 100% { opacity: 0; }
+    5%, 15%, 25% { opacity: 1;}
 }
 @-moz-keyframes riPic-fade {
-    0%, 20%, 100% { opacity: 0; }
-    5%, 15% { opacity: 1;}
+	0%, 35%, 100% { opacity: 0; }
+    5%, 15%, 25% { opacity: 1;}
+}
+@-ms-keyframes riPic-fade {
+	0%, 35%, 100% { opacity: 0; }
+    5%, 15%, 25% { opacity: 1;}
 }
 @keyframes riPic-fade {
-	0%, 20%, 100% { opacity: 0; }
-	5%, 15% { opacity: 1;}
+	0%, 35%, 100% { opacity: 0; }
+    5%, 15%, 25% { opacity: 1;}
 
 }
 
