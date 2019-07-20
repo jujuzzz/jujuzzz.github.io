@@ -58,6 +58,7 @@ h2 a:active {
 }
 .col {
 	position:relative;
+	text-align:center;
 }
 .col a:link {
 	color:black;
